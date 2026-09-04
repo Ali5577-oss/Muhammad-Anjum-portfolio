@@ -89,7 +89,7 @@ function Hero() {
                 <div className="h-full w-full overflow-hidden rounded-[1.5rem] border-4 border-white/80 dark:border-slate-800">
                 {/* Replace this with your actual photo */}
                 <img
-                  src="/src/assets/prof.jpg"
+                  src="/prof.jpg"
                   alt="Muhammad Anjum Tariq"
                   width="320"
                   height="320"
