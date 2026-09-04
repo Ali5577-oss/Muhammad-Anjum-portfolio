@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <script>
+      try {
+        const savedTheme = localStorage.getItem('theme')
+        if (savedTheme !== 'light') document.documentElement.classList.add('dark')
+      } catch {
+        document.documentElement.classList.add('dark')
+      }
+    </script>
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <meta
+      name="description"
+      content="Muhammad Anjum Tariq is a Full Stack & Mobile App Developer specializing in React, Node.js, Express, MySQL, and Flutter. Explore his web and mobile development projects."
+    />
+
+    <meta
+      name="keywords"
+      content="Muhammad Anjum Tariq, Full Stack Developer, Mobile App Developer, React Developer, Node.js Developer, Flutter Developer, Web Developer, Portfolio"
+    />
+
+    <meta name="author" content="Muhammad Anjum Tariq" />
+
+    <!-- Open Graph / Social Media -->
+    <meta
+      property="og:title"
+      content="Muhammad Anjum Tariq | Full Stack & Mobile App Developer"
+    />
+
+    <meta
+      property="og:description"
+      content="Explore the portfolio of Muhammad Anjum Tariq, a Full Stack & Mobile App Developer building modern web and mobile applications with React, Node.js, and Flutter."
+    />
+
+    <meta property="og:type" content="website" />
+
+    <meta
+      property="og:image"
+      content="/ogimage.jpg"
+    />
+
+    <meta
+      property="og:url"
+      content="https://your-domain.com"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta
+      name="twitter:title"
+      content="Muhammad Anjum Tariq | Full Stack & Mobile App Developer"
+    />
+
+    <meta
+      name="twitter:description"
+      content="Full Stack & Mobile App Developer specializing in modern web and mobile applications."
+    />
+
+    <title>
+      Muhammad Anjum Tariq | Full Stack & Mobile App Developer
+    </title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

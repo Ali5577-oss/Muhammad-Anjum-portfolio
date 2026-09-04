@@ -1,0 +1,32 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Anjum Shoe Store",
+    description: "A responsive shoe-store website built for a practical shopping experience, allowing customers to browse products, explore details, and connect with the store through a clean and accessible interface. Built with PHP, Bootstrap, CSS, and MySQL for reliable backend functionality and structured product data.",
+    image: "/src/assets/projects/coversho.jpg",
+    technologies: ["PHP", "Bootstrap", "CSS", "MySQL"],
+    category: "Web",
+    githubUrl: "https://github.com/Ali5577-oss/shoe-ecommerce.git",
+    liveUrl: "https://shoestoreanjum.liveblog365.com/",
+    featured: true,
+  },
+  {
+    id: 2,
+    title: "My Flutter App",
+    description: "A cross-platform mobile app built with Flutter and Firebase to give users a convenient, connected experience on Android and iOS. It includes real-time database updates, user authentication, and push notifications to keep users informed and engaged.",
+    image: "/src/assets/projects/covermbap.jpg",
+    technologies: ["Flutter", "Firebase"],
+    category: "Mobile",
+    featured: true,
+  },
+  {
+    id: 3,
+    title: "AH Digital Media Agency",
+    description: "A real-world digital services agency website that presents and sells different online services to clients. The website gives visitors a clear way to explore the agency's offerings, understand its services, and get in touch for business support. Built with PHP and Tailwind CSS, with XAMPP used as the local development environment, it is currently being used by the client in their business.",
+    image: "/src/assets/projects/ah.jpg",
+    technologies: ["PHP", "Tailwind CSS", "XAMPP"],
+    category: "Other",
+    liveUrl: "https://ahdigitalmediaagency.com/",
+    featured: true,
+  },
+]
